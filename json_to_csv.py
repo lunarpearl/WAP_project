@@ -11,6 +11,6 @@ for dict in genre_dead:
 
 ## Creating csv file
 with open('death_genre.csv', 'w', encoding="utf-8") as file:
-    file.write("label,birth date,death date,genre\n")
+    file.write("label;birth date;death date;genre\n")
     for person in genre_dict:
-        file.write(f"{person['label']},{person['birth date']},{person['death date']},{person['genre']}\n")
+        file.write(f"{person['label']};{person['birth date']};{person['death date']};{person['genre']}\n")
