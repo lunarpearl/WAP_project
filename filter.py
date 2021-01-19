@@ -7,7 +7,7 @@ with open('deathcause.json', encoding='utf-16') as file:
 ## Defining list with keywords
 keywords = ['singer', 'songwriter', 'music', 'discography', 'violinist', 'band', 'guitarist', 'drummer']
 
-## Reduce data to only those who have 'music' in their description
+## Reduce data to only those who have the above keywords in their description
 reduced_data = []
 for dict in data:
     for key in keywords:
@@ -21,11 +21,11 @@ with open('reduced_dataset.json', 'w') as file:
 ## List of directory with only title and description as keys
 music_dict = []
 for dict in reduced_data:
-    x = {'title':dict['title'] ,'description':dict['http://purl.org/dc/elements/1.1/description'],'cause of death':dict['ontology/deathCause_label']}
+    x = {'title':dict['title'] ,'description':dict['http://purl.org/dc/elements/1.1/description'],'birth date':dict.get('ontology/birthDate'), 'death date':dict.get('ontology/deathDate'),'cause of death':dict['ontology/deathCause_label']}
     music_dict.append(x)
 
 ## Creating csv file
 with open('music.csv', 'w', encoding="utf-8") as file:
-    file.write("title,description,cause of death\n")
+    file.write("title,description,birth date,death date,cause of death\n")
     for person in music_dict:
-        file.write(f"{person['title']},{person['description']},{person['cause of death']}\n")
+        file.write(f"{person['title']},{person['description']},{person['birth date']},{person['death date']},{person['cause of death']}\n")

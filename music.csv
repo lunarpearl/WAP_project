@@ -1,47 +1,47 @@
-title,description,cause of death
-Amit_Saigal,Musician,Drowning
-Andrij_Savka,Lemko bandit,Capital punishment
-Anita_Morris,Actress singer dancer,Ovarian cancer
-Alberta_Gay,American musician,Bone tumor
-Azean_Irdawaty,Malaysian actress and singer,Liver failure
-Barbara_Lang_(film_actress),American actor singer and model,Pneumonia
-Benay_Venuta,American actor-singer,Lung cancer
-Bill_Lee_(singer),American singer,Brain tumor
-Blaine_Stubblefield,American singer,Liver cancer
-Bob_Haymes,American actor musician songwriter,Amyotrophic lateral sclerosis
-Bob_Marley,Singer songwriter guitarist,Melanoma
-Connie_Haines,American singer,Myasthenia gravis
-David_Haskell,Actor singer,Brain tumor
-Don_Grady,Actor composer musician,Cancer
-Edward_J._Lakso,American screenwriter and music composer,Parkinson's disease
-Frankie_Randall_(singer),Americansinger,Lung cancer
-Gary_McFarland,American musician,Methadone
-Gary_Miller_(singer),British singer,Myocardial infarction
-Gino_Piserchio,Actor musician composer,AIDS
-Hilly_Kristal,American musician,Lung cancer
-Hugo_Avendaño,Singer,Pancreatic cancer
-Herbert_Greene_(Broadway_conductor),Musical theatre composer conductor and producer,Myocardial infarction
-Jimmy_MacDonald_(sound_effects_artist),Animator voice actor musician and head of Disney sound effects department,Heart failure
-Joe_E._Lewis,American singer and comedian,Myocardial infarction
-Jennifer_Worth,British nurse musician and author,Esophageal cancer
-John_Handcox,American songwriter,Cancer
-John_Mitchum,American actor and musician,Stroke
-Johnny_Cash,Singer and songwriter,Diabetes mellitus
-José_Carlos_Schwarz,Guinea-Bissauan musician,Aeroflot Flight 331
-Katalin_Karády,Hungarian actor and singer,Death by natural causes
-Lorraine_Geller,American musician,Heart failure
-Marc_Aryan,French / Belgian / Armenian singer songwriter musician music producer,Cardiac arrest
-Marti_Caine,Comedian singer,Lymphoma
-Pat_Kirkwood_(actress),British actor and singer,Alzheimer's disease
-Patrice_Wymore,Actress and singer,Death by natural causes
-Poppa_Neutrino,raft builder street musician philosopher,Heart failure
-Roberta_Dodd_Crawford,American opera singer,Myocardial infarction
-Rossano_Brazzi,Actor singer,Nervous system
-Rex_Everhart,American actor singer,Lung cancer
-Sheila_Guyse,African-American singer actress and recording artist,Alzheimer's disease
-Salmah_Ismail,Malaysian actor-singer,Jaundice
-Salwa_Al_Katrib,Lebanese singer,Cerebral hemorrhage
-Suzanne_Tamim,Lebanese singer,Murder
-Trevor_Williams_(violinist),British violinist,Parkinson's disease
-Vivian_Dandridge,American actor and singer,Stroke
-Wade_Dominguez,American actor model singer and dancer,Respiratory failure
+title,description,birth date,death date,cause of death
+Amit_Saigal,Musician,1965-07-06,2012-01-05,Drowning
+Andrij_Savka,Lemko bandit,1619-12-13,None,Capital punishment
+Anita_Morris,Actress singer dancer,1943-03-14,1994-03-02,Ovarian cancer
+Alberta_Gay,American musician,1913-01-01,1987-05-09,Bone tumor
+Azean_Irdawaty,Malaysian actress and singer,1950-02-27,2013-12-17,Liver failure
+Barbara_Lang_(film_actress),American actor singer and model,1928-03-02,1982-07-22,Pneumonia
+Benay_Venuta,American actor-singer,1910-01-27,1995-09-01,Lung cancer
+Bill_Lee_(singer),American singer,1916-08-21,1980-11-15,Brain tumor
+Blaine_Stubblefield,American singer,1896-01-26,1960-12-18,Liver cancer
+Bob_Haymes,American actor musician songwriter,1923-03-29,['1989-01-27', '1989-01-28'],Amyotrophic lateral sclerosis
+Bob_Marley,Singer songwriter guitarist,1945-02-06,1981-05-11,Melanoma
+Connie_Haines,American singer,1921-01-20,2008-09-22,Myasthenia gravis
+David_Haskell,Actor singer,1948-06-04,2000-08-30,Brain tumor
+Don_Grady,Actor composer musician,1944-06-08,2012-06-27,Cancer
+Edward_J._Lakso,American screenwriter and music composer,1932-09-20,2009-05-23,Parkinson's disease
+Frankie_Randall_(singer),Americansinger,1938-01-11,2014-12-28,Lung cancer
+Gary_McFarland,American musician,1933-10-23,1971-11-03,Methadone
+Gary_Miller_(singer),British singer,None,1968-06-15,Myocardial infarction
+Gino_Piserchio,Actor musician composer,1944-09-05,1989-03-22,AIDS
+Hilly_Kristal,American musician,1931-09-23,2007-08-28,Lung cancer
+Hugo_Avendaño,Singer,1927-03-08,1998-01-05,Pancreatic cancer
+Herbert_Greene_(Broadway_conductor),Musical theatre composer conductor and producer,1921-06-16,1985-09-25,Myocardial infarction
+Jimmy_MacDonald_(sound_effects_artist),Animator voice actor musician and head of Disney sound effects department,1906-05-19,1991-02-01,Heart failure
+Joe_E._Lewis,American singer and comedian,1902-01-12,1971-06-04,Myocardial infarction
+Jennifer_Worth,British nurse musician and author,1935-09-25,2011-05-31,Esophageal cancer
+John_Handcox,American songwriter,1904-02-05,1992-09-18,Cancer
+John_Mitchum,American actor and musician,1919-09-06,2001-11-29,Stroke
+Johnny_Cash,Singer and songwriter,['1930-02-26', '1932-02-26'],2003-09-12,Diabetes mellitus
+José_Carlos_Schwarz,Guinea-Bissauan musician,1949-12-06,1977-05-27,Aeroflot Flight 331
+Katalin_Karády,Hungarian actor and singer,1910-12-08,1990-02-08,Death by natural causes
+Lorraine_Geller,American musician,1928-09-11,1958-10-13,Heart failure
+Marc_Aryan,French / Belgian / Armenian singer songwriter musician music producer,['1926-09-14', '1926-11-14'],['1985-09-30', '1985-11-30'],Cardiac arrest
+Marti_Caine,Comedian singer,['1944-01-26', '1945-01-26'],1995-11-04,Lymphoma
+Pat_Kirkwood_(actress),British actor and singer,1921-02-24,2007-12-25,Alzheimer's disease
+Patrice_Wymore,Actress and singer,1926-12-17,2014-03-22,Death by natural causes
+Poppa_Neutrino,raft builder street musician philosopher,1933-10-15,2011-01-23,Heart failure
+Roberta_Dodd_Crawford,American opera singer,1897-08-05,1954-06-14,Myocardial infarction
+Rossano_Brazzi,Actor singer,1916-09-18,1994-12-24,Nervous system
+Rex_Everhart,American actor singer,1920-06-13,2000-03-13,Lung cancer
+Sheila_Guyse,African-American singer actress and recording artist,1925-07-14,2013-12-28,Alzheimer's disease
+Salmah_Ismail,Malaysian actor-singer,['1935-01-21', '1935-01-22'],1983-04-25,Jaundice
+Salwa_Al_Katrib,Lebanese singer,1953-09-17,['2009-03-02', '2009-03-04'],Cerebral hemorrhage
+Suzanne_Tamim,Lebanese singer,1977-09-23,2008-07-28,Murder
+Trevor_Williams_(violinist),British violinist,1929-02-10,2007-05-11,Parkinson's disease
+Vivian_Dandridge,American actor and singer,1921-04-22,['1991-10-21', '1991-10-26'],Stroke
+Wade_Dominguez,American actor model singer and dancer,1966-05-10,1998-08-26,Respiratory failure
