@@ -4,11 +4,15 @@ import json
 with open('deathcause.json', encoding='utf-16') as file:
     data = json.load(file)
 
+## Defining list with keywords
+keywords = ['singer', 'songwriter', 'music', 'discography', 'violinist', 'band', 'guitarist', 'drummer']
+
 ## Reduce data to only those who have 'music' in their description
 reduced_data = []
 for dict in data:
-    if 'http://purl.org/dc/elements/1.1/description' in dict and 'music' in str(dict["http://purl.org/dc/elements/1.1/description"]).lower():
-        reduced_data.append(dict.copy()) 
+    for key in keywords:
+        if 'http://purl.org/dc/elements/1.1/description' in dict and key in str(dict["http://purl.org/dc/elements/1.1/description"]).lower() and dict not in reduced_data:
+            reduced_data.append(dict.copy()) 
 
 ## Creating subset json file 
 with open('reduced_dataset.json', 'w') as file:
@@ -21,7 +25,7 @@ for dict in reduced_data:
     music_dict.append(x)
 
 ## Creating csv file
-with open('music.csv', 'w') as file:
+with open('music.csv', 'w', encoding="utf-8") as file:
     file.write("title,description,cause of death\n")
     for person in music_dict:
         file.write(f"{person['title']},{person['description']},{person['cause of death']}\n")

@@ -87,6 +87,98 @@
   "ontology/knownFor_label": "Rock Street Journal"
  },
  {
+  "title": "Andrij_Savka",
+  "ontology/activeYearsStartYear": "1638",
+  "ontology/deathPlace_label": "Muszyna",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1619-12-13",
+  "http://purl.org/dc/elements/1.1/description": "Lemko bandit",
+  "ontology/deathCause_label": "Capital punishment",
+  "ontology/birthYear": "1619",
+  "ontology/alias": "Robin Hoodof theLemkos",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": [
+   "Andrij_Savka__1",
+   "Banditry"
+  ],
+  "ontology/birthPlace": "http://dbpedia.org/resource/Stebn\u00edk",
+  "ontology/deathCause": "http://dbpedia.org/resource/Capital_punishment",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Andrij Savka",
+  "ontology/deathYear": "1661",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Andrij_Savka__1",
+   "http://dbpedia.org/resource/Banditry"
+  ],
+  "ontology/activeYearsEndYear": "1661",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Muszyna",
+  "ontology/birthPlace_label": "Stebn\u00edk"
+ },
+ {
+  "title": "Anita_Morris",
+  "ontology/activeYearsStartYear": "1972",
+  "ontology/spouse_label": "Grover Dale",
+  "ontology/deathPlace_label": "Los Angeles",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Anita Rose Morris",
+  "ontology/birthDate": "1943-03-14",
+  "http://purl.org/dc/elements/1.1/description": "Actress singer dancer",
+  "ontology/deathCause_label": "Ovarian cancer",
+  "ontology/spouse": "http://dbpedia.org/resource/Grover_Dale",
+  "ontology/birthYear": "1943",
+  "ontology/deathDate": "1994-03-02",
+  "ontology/alias": "Morris Anita Rose",
+  "ontology/child": "http://dbpedia.org/resource/James_Badge_Dale",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/child_label": "James Badge Dale",
+  "ontology/occupation_label": "Anita_Morris__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Durham,_North_Carolina",
+  "ontology/deathCause": "http://dbpedia.org/resource/Ovarian_cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Anita Morris",
+  "ontology/deathYear": "1994",
+  "ontology/occupation": "http://dbpedia.org/resource/Anita_Morris__1",
+  "ontology/activeYearsEndYear": "1994",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Los_Angeles",
+  "ontology/birthPlace_label": "Durham North Carolina"
+ },
+ {
   "title": "Alberta_Gay",
   "ontology/spouse_label": "Marvin Gay Sr.",
   "ontology/deathPlace_label": "Los Angeles",
@@ -144,6 +236,278 @@
   "ontology/birthPlace_label": "Rocky Mount North Carolina"
  },
  {
+  "title": "Azean_Irdawaty",
+  "ontology/activeYearsStartYear": "1970",
+  "ontology/deathPlace_label": [
+   "Kuala Lumpur",
+   "Federal Territories (Malaysia)",
+   "Petaling Jaya",
+   "Malaysia"
+  ],
+  "ontology/restingPlace_label": "Bukit Kiara Muslim Cemetery",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Azean Irdawaty",
+  "ontology/birthDate": "1950-02-27",
+  "http://purl.org/dc/elements/1.1/description": "Malaysian actress and singer",
+  "ontology/deathCause_label": "Liver failure",
+  "ontology/birthYear": "1950",
+  "ontology/deathDate": "2013-12-17",
+  "ontology/restingPlace": "http://dbpedia.org/resource/Bukit_Kiara_Muslim_Cemetery",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Azean_Irdawaty__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Malaysia",
+  "ontology/deathCause": "http://dbpedia.org/resource/Liver_failure",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Azean Irdawaty",
+  "ontology/deathYear": "2013",
+  "ontology/occupation": "http://dbpedia.org/resource/Azean_Irdawaty__1",
+  "ontology/activeYearsEndYear": "2010",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Kuala_Lumpur",
+   "http://dbpedia.org/resource/Federal_Territories_(Malaysia)",
+   "http://dbpedia.org/resource/Petaling_Jaya",
+   "http://dbpedia.org/resource/Malaysia"
+  ],
+  "ontology/birthPlace_label": "Malaysia"
+ },
+ {
+  "title": "Barbara_Lang_(film_actress)",
+  "ontology/activeYearsStartYear": "1955",
+  "ontology/deathPlace_label": [
+   "California",
+   "Los Angeles"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Barbara Jean Bly",
+  "ontology/birthDate": "1928-03-02",
+  "http://purl.org/dc/elements/1.1/description": "American actor singer and model",
+  "ontology/deathCause_label": "Pneumonia",
+  "ontology/birthYear": "1928",
+  "ontology/deathDate": "1982-07-22",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/California",
+   "http://dbpedia.org/resource/Hollywood"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Pneumonia",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Barbara Lang (film actress)",
+  "ontology/deathYear": "1982",
+  "ontology/activeYearsEndYear": "1981",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/California",
+   "http://dbpedia.org/resource/Los_Angeles"
+  ],
+  "ontology/birthPlace_label": [
+   "California",
+   "Hollywood"
+  ]
+ },
+ {
+  "title": "Benay_Venuta",
+  "ontology/activeYearsStartYear": "1935",
+  "ontology/spouse_label": [
+   "Fred Clark",
+   "Armand Deutsch"
+  ],
+  "ontology/deathPlace_label": [
+   "New York City",
+   "United States"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Benvenuta Rose Crooke",
+  "ontology/birthDate": "1910-01-27",
+  "http://purl.org/dc/elements/1.1/description": "American actor-singer",
+  "ontology/deathCause_label": "Lung cancer",
+  "ontology/spouse": [
+   "http://dbpedia.org/resource/Fred_Clark",
+   "http://dbpedia.org/resource/Armand_Deutsch"
+  ],
+  "ontology/birthYear": "1910",
+  "ontology/deathDate": "1995-09-01",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/San_Francisco",
+   "http://dbpedia.org/resource/United_States"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Lung_cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Benay Venuta",
+  "ontology/deathYear": "1995",
+  "ontology/activeYearsEndYear": "1994",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/New_York_City",
+   "http://dbpedia.org/resource/United_States"
+  ],
+  "ontology/birthPlace_label": [
+   "San Francisco",
+   "United States"
+  ]
+ },
+ {
+  "title": "Bill_Lee_(singer)",
+  "ontology/deathPlace_label": [
+   "California",
+   "Los Angeles"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "artist",
+   "musical artist",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent",
+   "MusicGroup",
+   "Q483501"
+  ],
+  "ontology/birthDate": "1916-08-21",
+  "http://purl.org/dc/elements/1.1/description": "American singer",
+  "ontology/deathCause_label": "Brain tumor",
+  "ontology/birthYear": "1916",
+  "ontology/deathDate": "1980-11-15",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://dbpedia.org/ontology/Artist",
+   "http://dbpedia.org/ontology/MusicalArtist",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+   "http://schema.org/MusicGroup",
+   "http://www.wikidata.org/entity/Q483501"
+  ],
+  "ontology/imdbId": "0496884",
+  "ontology/occupation_label": [
+   "Bill_Lee_(singer)__1",
+   "Playback singer"
+  ],
+  "ontology/birthPlace": "http://dbpedia.org/resource/Johnson,_Nebraska",
+  "ontology/deathCause": "http://dbpedia.org/resource/Brain_tumor",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Bill Lee (singer)",
+  "ontology/deathYear": "1980",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Bill_Lee_(singer)__1",
+   "http://dbpedia.org/resource/Playback_singer"
+  ],
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/California",
+   "http://dbpedia.org/resource/Los_Angeles"
+  ],
+  "ontology/birthPlace_label": "Johnson Nebraska"
+ },
+ {
+  "title": "Blaine_Stubblefield",
+  "ontology/deathPlace_label": "Boise Idaho",
+  "ontology/restingPlace_label": "Weiser Idaho",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1896-01-26",
+  "http://purl.org/dc/elements/1.1/description": "American singer",
+  "ontology/deathCause_label": "Liver cancer",
+  "ontology/birthYear": "1896",
+  "ontology/deathDate": "1960-12-18",
+  "ontology/restingPlace": "http://dbpedia.org/resource/Weiser,_Idaho",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Blaine_Stubblefield__1",
+  "ontology/knownFor": [
+   "http://dbpedia.org/resource/Hells_Canyon",
+   "http://dbpedia.org/resource/National_Oldtime_Fiddlers'_Contest"
+  ],
+  "ontology/birthPlace": "http://dbpedia.org/resource/Enterprise,_Oregon",
+  "ontology/deathCause": "http://dbpedia.org/resource/Liver_cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Blaine Stubblefield",
+  "ontology/deathYear": "1960",
+  "ontology/almaMater_label": "University of Idaho",
+  "ontology/occupation": "http://dbpedia.org/resource/Blaine_Stubblefield__1",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Boise,_Idaho",
+  "ontology/birthPlace_label": "Enterprise Oregon",
+  "ontology/knownFor_label": [
+   "Hells Canyon",
+   "National Oldtime Fiddlers' Contest"
+  ],
+  "ontology/almaMater": "http://dbpedia.org/resource/University_of_Idaho"
+ },
+ {
   "title": "Bob_Haymes",
   "ontology/activeYearsStartYear": "1943",
   "ontology/deathPlace_label": "Hilton Head Island South Carolina",
@@ -197,6 +561,208 @@
   "ontology/activeYearsEndYear": "1952",
   "ontology/deathPlace": "http://dbpedia.org/resource/Hilton_Head_Island,_South_Carolina",
   "ontology/birthPlace_label": "White Plains New York"
+ },
+ {
+  "title": "Bob_Marley",
+  "ontology/parent_label": "Cedella Booker",
+  "ontology/spouse_label": "Rita Marley",
+  "ontology/deathPlace_label": [
+   "Miami",
+   "United States",
+   "Florida"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Robert Nesta Marley",
+  "ontology/birthDate": "1945-02-06",
+  "http://purl.org/dc/elements/1.1/description": "Singer songwriter guitarist",
+  "ontology/hometown": [
+   "http://dbpedia.org/resource/Jamaica",
+   "http://dbpedia.org/resource/Kingston,_Jamaica",
+   "http://dbpedia.org/resource/Trenchtown"
+  ],
+  "ontology/religion": [
+   "http://dbpedia.org/resource/Rastafari",
+   "http://dbpedia.org/resource/Catholic_Church",
+   "http://dbpedia.org/resource/Ethiopian_Orthodox_Tewahedo_Church"
+  ],
+  "ontology/deathCause_label": "Melanoma",
+  "ontology/spouse": "http://dbpedia.org/resource/Rita_Marley",
+  "ontology/birthYear": "1945",
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+   "http://dbpedia.org/resource/Cannabis",
+   "http://dbpedia.org/resource/Rastafari"
+  ],
+  "ontology/deathDate": "1981-05-11",
+  "ontology/alias": "Marley Robert Nesta",
+  "ontology/hometown_label": [
+   "Jamaica",
+   "Kingston Jamaica",
+   "Trenchtown"
+  ],
+  "ontology/child": [
+   "http://dbpedia.org/resource/Ziggy_Marley",
+   "http://dbpedia.org/resource/Stephen_Marley_(musician)",
+   "http://dbpedia.org/resource/Damian_Marley",
+   "http://dbpedia.org/resource/Rohan_Marley",
+   "http://dbpedia.org/resource/Ky-Mani_Marley",
+   "http://dbpedia.org/resource/Julian_Marley",
+   "http://dbpedia.org/resource/Cedella_Marley",
+   "http://dbpedia.org/resource/Sharon_Marley"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/child_label": [
+   "Ziggy Marley",
+   "Stephen Marley (musician)",
+   "Damian Marley",
+   "Rohan Marley",
+   "Ky-Mani Marley",
+   "Julian Marley",
+   "Cedella Marley",
+   "Sharon Marley"
+  ],
+  "ontology/parent": "http://dbpedia.org/resource/Cedella_Booker",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Jamaica",
+   "http://dbpedia.org/resource/Saint_Ann_Parish",
+   "http://dbpedia.org/resource/Nine_Mile,_Jamaica"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Melanoma",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Bob Marley",
+  "ontology/deathYear": "1981",
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso_label": [
+   "Cannabis",
+   "Rastafari"
+  ],
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Miami",
+   "http://dbpedia.org/resource/United_States",
+   "http://dbpedia.org/resource/Florida"
+  ],
+  "ontology/religion_label": [
+   "Rastafari",
+   "Catholic Church",
+   "Ethiopian Orthodox Tewahedo Church"
+  ],
+  "ontology/birthPlace_label": [
+   "Jamaica",
+   "Saint Ann Parish",
+   "Nine Mile Jamaica"
+  ]
+ },
+ {
+  "title": "Connie_Haines",
+  "ontology/activeYearsStartYear": "1943",
+  "ontology/deathPlace_label": "Clearwater Beach",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Yvonne Marie Antoinette JaMais",
+  "ontology/birthDate": "1921-01-20",
+  "http://purl.org/dc/elements/1.1/description": "American singer",
+  "ontology/deathCause_label": "Myasthenia gravis",
+  "ontology/birthYear": "1921",
+  "ontology/deathDate": "2008-09-22",
+  "ontology/alias": "JaMais Yvonne Marie Antoinette",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Connie_Haines__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Savannah,_Georgia",
+  "ontology/deathCause": "http://dbpedia.org/resource/Myasthenia_gravis",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Connie Haines",
+  "ontology/deathYear": "2008",
+  "ontology/occupation": "http://dbpedia.org/resource/Connie_Haines__1",
+  "ontology/activeYearsEndYear": "1986",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Clearwater_Beach",
+  "ontology/birthPlace_label": "Savannah Georgia"
+ },
+ {
+  "title": "David_Haskell",
+  "ontology/activeYearsStartYear": "1970",
+  "ontology/deathPlace_label": [
+   "California",
+   "Woodland Hills Los Angeles"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "David Michael Haskell",
+  "ontology/birthDate": "1948-06-04",
+  "http://purl.org/dc/elements/1.1/description": "Actor singer",
+  "ontology/deathCause_label": "Brain tumor",
+  "ontology/birthYear": "1948",
+  "ontology/deathDate": "2000-08-30",
+  "ontology/alias": "David Michael Haskell",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "David_Haskell__1",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/California",
+   "http://dbpedia.org/resource/Stockton,_California"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Brain_tumor",
+  "http://www.w3.org/2000/01/rdf-schema#label": "David Haskell",
+  "ontology/deathYear": "2000",
+  "ontology/occupation": "http://dbpedia.org/resource/David_Haskell__1",
+  "ontology/activeYearsEndYear": "1970",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/California",
+   "http://dbpedia.org/resource/Woodland_Hills,_Los_Angeles"
+  ],
+  "ontology/birthPlace_label": [
+   "California",
+   "Stockton California"
+  ]
  },
  {
   "title": "Don_Grady",
@@ -311,6 +877,60 @@
   "ontology/birthPlace_label": "California"
  },
  {
+  "title": "Frankie_Randall_(singer)",
+  "ontology/deathPlace_label": "Indio California",
+  "ontology/nationality": "http://dbpedia.org/resource/Americans",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Franklin Joseph Lisbona",
+  "ontology/birthDate": "1938-01-11",
+  "http://purl.org/dc/elements/1.1/description": "Americansinger",
+  "ontology/deathCause_label": "Lung cancer",
+  "ontology/birthYear": "1938",
+  "ontology/deathDate": "2014-12-28",
+  "ontology/alias": [
+   "Franklin Joseph Lisbona",
+   "Frank Joseph Lisbona",
+   "Franklin Joseph Lisbonna",
+   "Frank Joseph Lisbonna",
+   "Franklin Joe Lisbona",
+   "Frank Joe Lisbona",
+   "Franklin Joe Lisbonna",
+   "Frank Joe Lisbonna",
+   "Lisbona Franklin Joseph"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Frankie_Randall_(singer)__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Passaic,_New_Jersey",
+  "ontology/nationality_label": "Americans",
+  "ontology/deathCause": "http://dbpedia.org/resource/Lung_cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Frankie Randall (singer)",
+  "ontology/deathYear": "2014",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/Americans",
+  "ontology/stateOfOrigin_label": "Americans",
+  "ontology/occupation": "http://dbpedia.org/resource/Frankie_Randall_(singer)__1",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Indio,_California",
+  "ontology/birthPlace_label": "Passaic New Jersey"
+ },
+ {
   "title": "Gary_McFarland",
   "ontology/activeYearsStartYear": "1963",
   "ontology/deathPlace_label": [
@@ -360,6 +980,62 @@
   "ontology/birthPlace_label": [
    "California",
    "Los Angeles"
+  ]
+ },
+ {
+  "title": "Gary_Miller_(singer)",
+  "ontology/nationality": "http://dbpedia.org/resource/English_people",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Neville Williams",
+  "http://purl.org/dc/elements/1.1/description": "British singer",
+  "ontology/deathCause_label": "Myocardial infarction",
+  "ontology/birthYear": "1924",
+  "ontology/deathDate": "1968-06-15",
+  "ontology/alias": "Neville Williams",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/imdbId": "0588368",
+  "ontology/occupation_label": [
+   "Gary_Miller_(singer)__1",
+   "Singing",
+   "Actor"
+  ],
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Lancashire",
+   "http://dbpedia.org/resource/Blackpool"
+  ],
+  "ontology/nationality_label": "English people",
+  "ontology/deathCause": "http://dbpedia.org/resource/Myocardial_infarction",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Gary Miller (singer)",
+  "ontology/deathYear": "1968",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/English_people",
+  "ontology/stateOfOrigin_label": "English people",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Gary_Miller_(singer)__1",
+   "http://dbpedia.org/resource/Singing",
+   "http://dbpedia.org/resource/Actor"
+  ],
+  "ontology/birthPlace_label": [
+   "Lancashire",
+   "Blackpool"
   ]
  },
  {
@@ -471,6 +1147,61 @@
   "ontology/knownFor_label": "CBGB"
  },
  {
+  "title": "Hugo_Avenda\u00f1o",
+  "ontology/activeYearsStartYear": "1950",
+  "ontology/deathPlace_label": [
+   "Mexico City",
+   "Mexico"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Hugo Avenda\u00f1o Espinoza",
+  "ontology/birthDate": "1927-03-08",
+  "http://purl.org/dc/elements/1.1/description": "Singer",
+  "ontology/deathCause_label": "Pancreatic cancer",
+  "ontology/birthYear": "1927",
+  "ontology/deathDate": "1998-01-05",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Hugo_Avenda\u00f1o__1",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Veracruz",
+   "http://dbpedia.org/resource/Tuxpan",
+   "http://dbpedia.org/resource/Mexico"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Pancreatic_cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Hugo Avenda\u00f1o",
+  "ontology/deathYear": "1998",
+  "ontology/occupation": "http://dbpedia.org/resource/Hugo_Avenda\u00f1o__1",
+  "ontology/activeYearsEndYear": "1998",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Mexico_City",
+   "http://dbpedia.org/resource/Mexico"
+  ],
+  "ontology/birthPlace_label": [
+   "Veracruz",
+   "Tuxpan",
+   "Mexico"
+  ]
+ },
+ {
   "title": "Herbert_Greene_(Broadway_conductor)",
   "ontology/deathPlace_label": "New York City",
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
@@ -572,6 +1303,50 @@
   ]
  },
  {
+  "title": "Joe_E._Lewis",
+  "ontology/spouse_label": "Martha Stewart (actress)",
+  "ontology/deathPlace_label": "New York City",
+  "ontology/restingPlace_label": "Cedar Park Cemetery Emerson",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Joseph Klewan",
+  "ontology/birthDate": "1902-01-12",
+  "http://purl.org/dc/elements/1.1/description": "American singer and comedian",
+  "ontology/hometown": "http://dbpedia.org/resource/New_York_City",
+  "ontology/deathCause_label": "Myocardial infarction",
+  "ontology/spouse": "http://dbpedia.org/resource/Martha_Stewart_(actress)",
+  "ontology/birthYear": "1902",
+  "ontology/deathDate": "1971-06-04",
+  "ontology/restingPlace": "http://dbpedia.org/resource/Cedar_Park_Cemetery,_Emerson",
+  "ontology/alias": "Joey Lewis",
+  "ontology/hometown_label": "New York City",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/birthPlace": "http://dbpedia.org/resource/New_York_City",
+  "ontology/deathCause": "http://dbpedia.org/resource/Myocardial_infarction",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Joe E. Lewis",
+  "ontology/deathYear": "1971",
+  "ontology/deathPlace": "http://dbpedia.org/resource/New_York_City",
+  "ontology/birthPlace_label": "New York City"
+ },
+ {
   "title": "Jennifer_Worth",
   "ontology/nationality": "http://dbpedia.org/resource/British_people",
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
@@ -619,6 +1394,56 @@
    "Clacton-on-Sea",
    "Essex"
   ]
+ },
+ {
+  "title": "John_Handcox",
+  "ontology/deathPlace_label": "San Diego",
+  "ontology/nationality": "http://dbpedia.org/resource/United_States",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1904-02-05",
+  "http://purl.org/dc/elements/1.1/description": "American songwriter",
+  "ontology/deathCause_label": "Cancer",
+  "ontology/birthYear": "1904",
+  "ontology/deathDate": "1992-09-18",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": [
+   "John_Handcox__1",
+   "Songwriter",
+   "Poet"
+  ],
+  "ontology/birthPlace": "http://dbpedia.org/resource/Brinkley,_Arkansas",
+  "ontology/nationality_label": "United States",
+  "ontology/deathCause": "http://dbpedia.org/resource/Cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "John Handcox",
+  "ontology/deathYear": "1992",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/United_States",
+  "ontology/stateOfOrigin_label": "United States",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/John_Handcox__1",
+   "http://dbpedia.org/resource/Songwriter",
+   "http://dbpedia.org/resource/Poet"
+  ],
+  "ontology/deathPlace": "http://dbpedia.org/resource/San_Diego",
+  "ontology/birthPlace_label": "Brinkley Arkansas"
  },
  {
   "title": "John_Mitchum",
@@ -679,6 +1504,76 @@
   ]
  },
  {
+  "title": "Johnny_Cash",
+  "ontology/activeYearsStartYear": "1954",
+  "ontology/spouse_label": "June Carter Cash",
+  "ontology/deathPlace_label": "Nashville Tennessee",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "military person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "J. R. Cash",
+  "ontology/birthDate": [
+   "1930-02-26",
+   "1932-02-26"
+  ],
+  "http://purl.org/dc/elements/1.1/description": "Singer and songwriter",
+  "ontology/religion": "http://dbpedia.org/resource/Christianity",
+  "ontology/deathCause_label": "Diabetes mellitus",
+  "ontology/spouse": "http://dbpedia.org/resource/June_Carter_Cash",
+  "ontology/birthYear": [
+   "1932",
+   "1930"
+  ],
+  "ontology/militaryBranch": "http://dbpedia.org/resource/United_States_Air_Force",
+  "ontology/deathDate": "2003-09-12",
+  "ontology/alias": "Cash John R.; Cash J.R.",
+  "ontology/child": [
+   "http://dbpedia.org/resource/Rosanne_Cash",
+   "http://dbpedia.org/resource/Carlene_Carter",
+   "http://dbpedia.org/resource/John_Carter_Cash",
+   "http://dbpedia.org/resource/Rosie_Nix_Adams"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://dbpedia.org/ontology/MilitaryPerson",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/child_label": [
+   "Rosanne Cash",
+   "Carlene Carter",
+   "John Carter Cash",
+   "Rosie Nix Adams"
+  ],
+  "ontology/occupation_label": "Johnny_Cash__2",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Kingsland,_Arkansas",
+  "ontology/deathCause": "http://dbpedia.org/resource/Diabetes_mellitus",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Johnny Cash",
+  "ontology/deathYear": "2003",
+  "ontology/occupation": "http://dbpedia.org/resource/Johnny_Cash__2",
+  "ontology/activeYearsEndYear": "2003",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Nashville,_Tennessee",
+  "ontology/serviceEndYear": "1954",
+  "ontology/religion_label": "Christianity",
+  "ontology/serviceStartYear": "1950",
+  "ontology/birthPlace_label": "Kingsland Arkansas",
+  "ontology/militaryBranch_label": "United States Air Force"
+ },
+ {
   "title": "Jos\u00e9_Carlos_Schwarz",
   "ontology/deathPlace_label": [
    "Havana",
@@ -736,6 +1631,59 @@
   "ontology/birthPlace_label": [
    "Guinea-Bissau",
    "Bissau"
+  ]
+ },
+ {
+  "title": "Katalin_Kar\u00e1dy",
+  "ontology/activeYearsStartYear": "1939",
+  "ontology/deathPlace_label": "New York",
+  "ontology/nationality": "http://dbpedia.org/resource/Hungary",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Katalin Kanczler",
+  "ontology/birthDate": "1910-12-08",
+  "http://purl.org/dc/elements/1.1/description": "Hungarian actor and singer",
+  "ontology/deathCause_label": "Death by natural causes",
+  "ontology/birthYear": "1910",
+  "ontology/deathDate": "1990-02-08",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Katalin_Kar\u00e1dy__1",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Hungary",
+   "http://dbpedia.org/resource/Budapest"
+  ],
+  "ontology/nationality_label": "Hungary",
+  "ontology/deathCause": "http://dbpedia.org/resource/Death_by_natural_causes",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Katalin Kar\u00e1dy",
+  "ontology/award": "http://dbpedia.org/resource/Righteous_Among_the_Nations",
+  "ontology/deathYear": "1990",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/Hungary",
+  "ontology/award_label": "Righteous Among the Nations",
+  "ontology/stateOfOrigin_label": "Hungary",
+  "ontology/occupation": "http://dbpedia.org/resource/Katalin_Kar\u00e1dy__1",
+  "ontology/activeYearsEndYear": "1969",
+  "ontology/deathPlace": "http://dbpedia.org/resource/New_York",
+  "ontology/birthPlace_label": [
+   "Hungary",
+   "Budapest"
   ]
  },
  {
@@ -863,6 +1811,203 @@
   ]
  },
  {
+  "title": "Marti_Caine",
+  "ontology/activeYearsStartYear": "1975",
+  "ontology/spouse_label": "Kenneth Ives",
+  "ontology/deathPlace_label": [
+   "Buckinghamshire",
+   "High Wycombe"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Lynne Denise Shepherd",
+  "ontology/birthDate": [
+   "1944-01-26",
+   "1945-01-26"
+  ],
+  "http://purl.org/dc/elements/1.1/description": "Comedian singer",
+  "ontology/deathCause_label": "Lymphoma",
+  "ontology/spouse": "http://dbpedia.org/resource/Kenneth_Ives",
+  "ontology/birthYear": [
+   "1945",
+   "1944"
+  ],
+  "ontology/deathDate": "1995-11-04",
+  "ontology/alias": "Shepherd Lynne Denise",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/imdbId": "0129001",
+  "ontology/occupation_label": "Marti_Caine__1",
+  "ontology/knownFor": "http://dbpedia.org/resource/New_Faces",
+  "ontology/residence_label": [
+   "Oxfordshire",
+   "Henley-on-Thames"
+  ],
+  "ontology/height": "1.524",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Sheffield",
+   "http://dbpedia.org/resource/South_Yorkshire",
+   "http://dbpedia.org/resource/West_Yorkshire"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Lymphoma",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Marti Caine",
+  "ontology/deathYear": "1995",
+  "ontology/occupation": "http://dbpedia.org/resource/Marti_Caine__1",
+  "ontology/activeYearsEndYear": "1995",
+  "ontology/residence": [
+   "http://dbpedia.org/resource/Oxfordshire",
+   "http://dbpedia.org/resource/Henley-on-Thames"
+  ],
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Buckinghamshire",
+   "http://dbpedia.org/resource/High_Wycombe"
+  ],
+  "ontology/birthPlace_label": [
+   "Sheffield",
+   "South Yorkshire",
+   "West Yorkshire"
+  ],
+  "ontology/knownFor_label": "New Faces"
+ },
+ {
+  "title": "Pat_Kirkwood_(actress)",
+  "ontology/deathPlace_label": [
+   "United Kingdom",
+   "West Yorkshire",
+   "Ilkley",
+   "England"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1921-02-24",
+  "http://purl.org/dc/elements/1.1/description": "British actor and singer",
+  "ontology/deathCause_label": "Alzheimer's disease",
+  "ontology/birthYear": "1921",
+  "ontology/deathDate": "2007-12-25",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Pat_Kirkwood_(actress)__1",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/United_Kingdom",
+   "http://dbpedia.org/resource/Lancashire",
+   "http://dbpedia.org/resource/City_of_Salford",
+   "http://dbpedia.org/resource/Pendleton,_Greater_Manchester",
+   "http://dbpedia.org/resource/England",
+   "http://dbpedia.org/resource/County_Borough_of_Salford"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Alzheimer's_disease",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Pat Kirkwood (actress)",
+  "ontology/deathYear": "2007",
+  "ontology/occupation": "http://dbpedia.org/resource/Pat_Kirkwood_(actress)__1",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/United_Kingdom",
+   "http://dbpedia.org/resource/West_Yorkshire",
+   "http://dbpedia.org/resource/Ilkley",
+   "http://dbpedia.org/resource/England"
+  ],
+  "ontology/birthPlace_label": [
+   "United Kingdom",
+   "Lancashire",
+   "City of Salford",
+   "Pendleton Greater Manchester",
+   "England",
+   "County Borough of Salford"
+  ]
+ },
+ {
+  "title": "Patrice_Wymore",
+  "ontology/activeYearsStartYear": "1947",
+  "ontology/spouse_label": "Errol Flynn",
+  "ontology/deathPlace_label": [
+   "Jamaica",
+   "Portland Parish"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Patricia Wymore",
+  "ontology/birthDate": "1926-12-17",
+  "http://purl.org/dc/elements/1.1/description": "Actress and singer",
+  "ontology/deathCause_label": "Death by natural causes",
+  "ontology/spouse": "http://dbpedia.org/resource/Errol_Flynn",
+  "ontology/birthYear": "1926",
+  "ontology/deathDate": "2014-03-22",
+  "ontology/alias": [
+   "Patrice Wymore Flynn",
+   "Trice Wymore",
+   "Flynn Wymore Patrice; Flynn Patrice; Wymore Patricia (birth name)"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Patrice_Wymore__1",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Miltonvale,_Kansas",
+   "http://dbpedia.org/resource/United_States"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Death_by_natural_causes",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Patrice Wymore",
+  "ontology/deathYear": "2014",
+  "ontology/occupation": "http://dbpedia.org/resource/Patrice_Wymore__1",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Jamaica",
+   "http://dbpedia.org/resource/Portland_Parish"
+  ],
+  "ontology/birthPlace_label": [
+   "Miltonvale Kansas",
+   "United States"
+  ]
+ },
+ {
   "title": "Poppa_Neutrino",
   "ontology/deathPlace_label": [
    "Louisiana",
@@ -925,5 +2070,556 @@
    "Fresno California",
    "United States"
   ]
+ },
+ {
+  "title": "Roberta_Dodd_Crawford",
+  "ontology/spouse_label": "Kojo Tovalou Hou\u00e9nou",
+  "ontology/ethnicity_label": "African Americans",
+  "ontology/deathPlace_label": "Dallas",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1897-08-05",
+  "http://purl.org/dc/elements/1.1/description": "American opera singer",
+  "ontology/deathCause_label": "Myocardial infarction",
+  "ontology/spouse": "http://dbpedia.org/resource/Kojo_Tovalou_Hou\u00e9nou",
+  "ontology/birthYear": "1897",
+  "ontology/deathDate": "1954-06-14",
+  "ontology/ethnicity": "http://dbpedia.org/resource/African_Americans",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Roberta_Dodd_Crawford__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Bonham,_Texas",
+  "ontology/deathCause": "http://dbpedia.org/resource/Myocardial_infarction",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Roberta Dodd Crawford",
+  "ontology/deathYear": "1954",
+  "ontology/occupation": "http://dbpedia.org/resource/Roberta_Dodd_Crawford__1",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Dallas",
+  "ontology/birthPlace_label": "Bonham Texas"
+ },
+ {
+  "title": "Rossano_Brazzi",
+  "ontology/activeYearsStartYear": "1939",
+  "ontology/deathPlace_label": [
+   "Italy",
+   "Rome"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1916-09-18",
+  "http://purl.org/dc/elements/1.1/description": "Actor singer",
+  "ontology/deathCause_label": "Nervous system",
+  "ontology/birthYear": "1916",
+  "ontology/deathDate": "1994-12-24",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/imdbId": "0106387",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Italy",
+   "http://dbpedia.org/resource/Bologna"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Nervous_system",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Rossano Brazzi",
+  "ontology/deathYear": "1994",
+  "ontology/activeYearsEndYear": "1939",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Italy",
+   "http://dbpedia.org/resource/Rome"
+  ],
+  "ontology/birthPlace_label": [
+   "Italy",
+   "Bologna"
+  ]
+ },
+ {
+  "title": "Rex_Everhart",
+  "ontology/deathPlace_label": "Branford Connecticut",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1920-06-13",
+  "http://purl.org/dc/elements/1.1/description": "American actor singer",
+  "ontology/deathCause_label": "Lung cancer",
+  "ontology/birthYear": "1920",
+  "ontology/deathDate": "2000-03-13",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/imdbId": "0263591",
+  "ontology/occupation_label": [
+   "Rex_Everhart__1",
+   "Actor"
+  ],
+  "ontology/birthPlace": "http://dbpedia.org/resource/Watseka,_Illinois",
+  "ontology/deathCause": "http://dbpedia.org/resource/Lung_cancer",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Rex Everhart",
+  "ontology/deathYear": "2000",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Rex_Everhart__1",
+   "http://dbpedia.org/resource/Actor"
+  ],
+  "ontology/deathPlace": "http://dbpedia.org/resource/Branford,_Connecticut",
+  "ontology/birthPlace_label": "Watseka Illinois"
+ },
+ {
+  "title": "Sheila_Guyse",
+  "ontology/deathPlace_label": "Honolulu",
+  "ontology/nationality": "http://dbpedia.org/resource/African_Americans",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Etta Drucille Guyse",
+  "ontology/birthDate": "1925-07-14",
+  "http://purl.org/dc/elements/1.1/description": "African-American singer actress and recording artist",
+  "ontology/deathCause_label": "Alzheimer's disease",
+  "ontology/birthYear": "1925",
+  "ontology/deathDate": "2013-12-28",
+  "ontology/alias": "Shelia Guyse Jackson",
+  "ontology/child": "http://dbpedia.org/resource/Sheila_Crystal_Miller",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/child_label": "Sheila_Crystal_Miller",
+  "ontology/occupation_label": "Sheila_Guyse__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Forest,_Mississippi",
+  "ontology/nationality_label": "African Americans",
+  "ontology/deathCause": "http://dbpedia.org/resource/Alzheimer's_disease",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Sheila Guyse",
+  "ontology/deathYear": "2013",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/African_Americans",
+  "ontology/stateOfOrigin_label": "African Americans",
+  "ontology/occupation": "http://dbpedia.org/resource/Sheila_Guyse__1",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Honolulu",
+  "ontology/birthPlace_label": "Forest Mississippi"
+ },
+ {
+  "title": "Salmah_Ismail",
+  "ontology/activeYearsStartYear": "1958",
+  "ontology/spouse_label": "P. Ramlee",
+  "ontology/deathPlace_label": [
+   "Selangor",
+   "Petaling Jaya",
+   "Malaysia",
+   "Assunta Hospital"
+  ],
+  "ontology/restingPlace_label": "Jalan Ampang Muslim Cemetery",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Salmah binti Ismail",
+  "ontology/birthDate": [
+   "1935-01-21",
+   "1935-01-22"
+  ],
+  "http://purl.org/dc/elements/1.1/description": "Malaysian actor-singer",
+  "ontology/religion": "http://dbpedia.org/resource/Islam",
+  "ontology/deathCause_label": "Jaundice",
+  "ontology/spouse": "http://dbpedia.org/resource/P._Ramlee",
+  "ontology/birthYear": "1935",
+  "ontology/deathDate": "1983-04-25",
+  "ontology/restingPlace": "http://dbpedia.org/resource/Jalan_Ampang_Muslim_Cemetery",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": [
+   "Salmah_Ismail__1",
+   "Singing",
+   "Actor"
+  ],
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Singapore",
+   "http://dbpedia.org/resource/Straits_Settlements",
+   "http://dbpedia.org/resource/Pasir_Panjang"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Jaundice",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Salmah Ismail",
+  "ontology/deathYear": "1983",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Salmah_Ismail__1",
+   "http://dbpedia.org/resource/Singing",
+   "http://dbpedia.org/resource/Actor"
+  ],
+  "ontology/activeYearsEndYear": "1983",
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/Selangor",
+   "http://dbpedia.org/resource/Petaling_Jaya",
+   "http://dbpedia.org/resource/Malaysia",
+   "http://dbpedia.org/resource/Assunta_Hospital"
+  ],
+  "ontology/religion_label": "Islam",
+  "ontology/birthPlace_label": [
+   "Singapore",
+   "Straits Settlements",
+   "Pasir Panjang"
+  ]
+ },
+ {
+  "title": "Salwa_Al_Katrib",
+  "ontology/spouse_label": "Nahi_Lahoud",
+  "ontology/deathPlace_label": "Lebanon",
+  "ontology/nationality": "http://dbpedia.org/resource/Lebanese_nationality_law",
+  "ontology/weight": "52000.0",
+  "ontology/restingPlace_label": "Amsheet",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Salwa Al Katrib",
+  "ontology/birthDate": "1953-09-17",
+  "http://purl.org/dc/elements/1.1/description": "Lebanese singer",
+  "ontology/religion": "http://dbpedia.org/resource/Christianity_in_Lebanon",
+  "ontology/deathCause_label": "Cerebral hemorrhage",
+  "ontology/spouse": "http://dbpedia.org/resource/Nahi_Lahoud",
+  "ontology/birthYear": "1953",
+  "ontology/deathDate": [
+   "2009-03-02",
+   "2009-03-04"
+  ],
+  "ontology/restingPlace": "http://dbpedia.org/resource/Amsheet",
+  "ontology/child": "http://dbpedia.org/resource/Aline_Lahoud",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/child_label": "Aline Lahoud",
+  "ontology/occupation_label": [
+   "Salwa_Al_Katrib__1",
+   "Singing"
+  ],
+  "ontology/height": "1.0",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Lebanon",
+   "http://dbpedia.org/resource/Tripoli",
+   "http://dbpedia.org/resource/Tripoli,_Lebanon"
+  ],
+  "ontology/nationality_label": "Lebanese nationality law",
+  "ontology/deathCause": "http://dbpedia.org/resource/Cerebral_hemorrhage",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Salwa Al Katrib",
+  "ontology/deathYear": "2009",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/Lebanese_nationality_law",
+  "ontology/stateOfOrigin_label": "Lebanese nationality law",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Salwa_Al_Katrib__1",
+   "http://dbpedia.org/resource/Singing"
+  ],
+  "ontology/deathPlace": "http://dbpedia.org/resource/Lebanon",
+  "ontology/religion_label": "Christianity in Lebanon",
+  "ontology/birthPlace_label": [
+   "Lebanon",
+   "Tripoli",
+   "Tripoli Lebanon"
+  ]
+ },
+ {
+  "title": "Suzanne_Tamim",
+  "ontology/deathPlace_label": [
+   "United Arab Emirates",
+   "Dubai"
+  ],
+  "ontology/nationality": "http://dbpedia.org/resource/Lebanese_nationality_law",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Suzanne Abdel Satar Tamim",
+  "ontology/birthDate": "1977-09-23",
+  "http://purl.org/dc/elements/1.1/description": "Lebanese singer",
+  "ontology/deathCause_label": "Murder",
+  "ontology/birthYear": "1977",
+  "ontology/deathDate": "2008-07-28",
+  "ontology/alias": "\u0633\u0648\u0632\u0627\u0646 \u062a\u0645\u064a\u0645",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": [
+   "Suzanne_Tamim__1",
+   "Singing"
+  ],
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Lebanon",
+   "http://dbpedia.org/resource/Beirut"
+  ],
+  "ontology/nationality_label": "Lebanese nationality law",
+  "ontology/deathCause": "http://dbpedia.org/resource/Murder",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Suzanne Tamim",
+  "ontology/deathYear": "2008",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/Lebanese_nationality_law",
+  "ontology/stateOfOrigin_label": "Lebanese nationality law",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Suzanne_Tamim__1",
+   "http://dbpedia.org/resource/Singing"
+  ],
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/United_Arab_Emirates",
+   "http://dbpedia.org/resource/Dubai"
+  ],
+  "ontology/birthPlace_label": [
+   "Lebanon",
+   "Beirut"
+  ]
+ },
+ {
+  "title": "Trevor_Williams_(violinist)",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1929-02-10",
+  "http://purl.org/dc/elements/1.1/description": "British violinist",
+  "ontology/deathCause_label": "Parkinson's disease",
+  "ontology/birthYear": "1929",
+  "ontology/deathDate": "2007-05-11",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Trevor_Williams_(violinist)__1",
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Acton,_London",
+   "http://dbpedia.org/resource/West_London_(sub_region)"
+  ],
+  "ontology/deathCause": "http://dbpedia.org/resource/Parkinson's_disease",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Trevor Williams (violinist)",
+  "ontology/deathYear": "2007",
+  "ontology/occupation": "http://dbpedia.org/resource/Trevor_Williams_(violinist)__1",
+  "ontology/birthPlace_label": [
+   "Acton London",
+   "West London (sub region)"
+  ]
+ },
+ {
+  "title": "Vivian_Dandridge",
+  "ontology/parent_label": "Ruby Dandridge",
+  "ontology/deathPlace_label": [
+   "United States",
+   "Seattle",
+   "Washington (state)"
+  ],
+  "ontology/nationality": "http://dbpedia.org/resource/United_States",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthName": "Vivian Alferetta Dandridge",
+  "ontology/birthDate": "1921-04-22",
+  "http://purl.org/dc/elements/1.1/description": "American actor and singer",
+  "ontology/deathCause_label": "Stroke",
+  "ontology/birthYear": "1921",
+  "ontology/deathDate": [
+   "1991-10-21",
+   "1991-10-26"
+  ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/parent": "http://dbpedia.org/resource/Ruby_Dandridge",
+  "ontology/imdbId": "0199277",
+  "ontology/occupation_label": [
+   "Vivian_Dandridge__1",
+   "Dance",
+   "Singing",
+   "Actor"
+  ],
+  "ontology/birthPlace": [
+   "http://dbpedia.org/resource/Cleveland",
+   "http://dbpedia.org/resource/Ohio",
+   "http://dbpedia.org/resource/United_States"
+  ],
+  "ontology/nationality_label": "United States",
+  "ontology/deathCause": "http://dbpedia.org/resource/Stroke",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Vivian Dandridge",
+  "ontology/deathYear": "1991",
+  "ontology/stateOfOrigin": "http://dbpedia.org/resource/United_States",
+  "ontology/stateOfOrigin_label": "United States",
+  "ontology/occupation": [
+   "http://dbpedia.org/resource/Vivian_Dandridge__1",
+   "http://dbpedia.org/resource/Dance",
+   "http://dbpedia.org/resource/Singing",
+   "http://dbpedia.org/resource/Actor"
+  ],
+  "ontology/deathPlace": [
+   "http://dbpedia.org/resource/United_States",
+   "http://dbpedia.org/resource/Seattle",
+   "http://dbpedia.org/resource/Washington_(state)"
+  ],
+  "ontology/birthPlace_label": [
+   "Cleveland",
+   "Ohio",
+   "United States"
+  ],
+  "ontology/partner_label": "Emmett_Wallace",
+  "ontology/partner": "http://dbpedia.org/resource/Emmett_Wallace"
+ },
+ {
+  "title": "Wade_Dominguez",
+  "ontology/activeYearsStartYear": "1994",
+  "ontology/deathPlace_label": "Los Angeles",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type_label": [
+   "owl#Thing",
+   "person",
+   "Q5",
+   "Person",
+   "Q215627",
+   "DUL.owl#NaturalPerson",
+   "agent",
+   "DUL.owl#Agent"
+  ],
+  "ontology/birthDate": "1966-05-10",
+  "http://purl.org/dc/elements/1.1/description": "American actor model singer and dancer",
+  "ontology/deathCause_label": "Respiratory failure",
+  "ontology/birthYear": "1966",
+  "ontology/deathDate": "1998-08-26",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+   "http://www.w3.org/2002/07/owl#Thing",
+   "http://dbpedia.org/ontology/Person",
+   "http://www.wikidata.org/entity/Q5",
+   "http://xmlns.com/foaf/0.1/Person",
+   "http://schema.org/Person",
+   "http://www.wikidata.org/entity/Q215627",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+   "http://dbpedia.org/ontology/Agent",
+   "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+  ],
+  "ontology/occupation_label": "Wade_Dominguez__1",
+  "ontology/birthPlace": "http://dbpedia.org/resource/Santa_Clara_County,_California",
+  "ontology/deathCause": "http://dbpedia.org/resource/Respiratory_failure",
+  "http://www.w3.org/2000/01/rdf-schema#label": "Wade Dominguez",
+  "ontology/deathYear": "1998",
+  "ontology/occupation": "http://dbpedia.org/resource/Wade_Dominguez__1",
+  "ontology/activeYearsEndYear": "1998",
+  "ontology/deathPlace": "http://dbpedia.org/resource/Los_Angeles",
+  "ontology/birthPlace_label": "Santa Clara County California"
  }
 ]
