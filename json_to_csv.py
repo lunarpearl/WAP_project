@@ -12,12 +12,11 @@ for dict in genre_dead:
 # If the date of death/birth is a lsit, now it will only display the last one
 for dict in genre_dict:
     if type(dict['birth date']) is list:
-        for el in dict['birth date']:
-            dict['birth date'] = el
+        del dict['birth date'][1]
+        dict['birth date']=str(dict['birth date']).strip("['']")
     if type(dict['death date']) is list:
-        for el in dict['death date']:
-            dict['death date'] = el
-
+        del dict['death date'][1]
+        dict['death date']=str(dict['death date']).strip("['']")
 
 ## Creating csv file
 with open('death_genre.csv', 'w', encoding="utf-8") as file:
