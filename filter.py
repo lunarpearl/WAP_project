@@ -5,7 +5,7 @@ with open('deathcause.json', encoding='utf-16') as file:
     data = json.load(file)
 
 ## Defining list with keywords
-keywords = ['singer', 'songwriter', 'music', 'discography', 'violinist', 'band', 'guitarist', 'drummer']
+keywords = ['singer', 'singing', 'songwriter', 'music', 'discography', 'violinist', 'bandleader', 'guitarist', 'drummer']
 
 ## Reduce data to only those who have the above keywords in their description
 reduced_data = []
@@ -18,7 +18,13 @@ for dict in data:
         if 'ontology/occupation' in dict and key in str(dict["ontology/occupation"]).lower() and dict not in reduced_data:
             reduced_data.append(dict.copy()) 
         if 'http://www.w3.org/2000/01/rdf-schema#seeAlso_label' in dict and key in str(dict["http://www.w3.org/2000/01/rdf-schema#seeAlso_label"]).lower() and dict not in reduced_data:
-            reduced_data.append(dict.copy()) 
+            reduced_data.append(dict.copy())
+    if 'ontology/knownFor' in dict and 'band' in str(dict["ontology/knownFor"]).lower() and dict not in reduced_data:
+        reduced_data.append(dict.copy())
+    if 'ontology/associatedMusicalArtist' in dict and 'band' in str(dict["ontology/associatedMusicalArtist"]).lower() and dict not in reduced_data:
+        reduced_data.append(dict.copy())
+    if 'ontology/associatedBand' in dict and 'band' in str(dict["ontology/associatedBand"]).lower() and dict not in reduced_data:
+        reduced_data.append(dict.copy())
 
 
 ## Creating subset json file 
