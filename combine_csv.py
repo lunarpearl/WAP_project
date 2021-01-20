@@ -25,8 +25,8 @@ with open('artist&genre.csv', 'w') as combined_file:
      with open('artist_id.csv') as id_file:
         id_file.readline()
         for row in id_file:
-            artist_id, real_name, art_name = row.split(';')
+            artist_id, real_name, art_name = row.strip().split(';')
             if artist_id in artist_id_to_genres:
-                combined_file.write(f'{real_name};{artist_id_to_genres[artist_id]}\n')
+                combined_file.write(f'{real_name};{art_name};{artist_id_to_genres[artist_id]}\n')
 
 # 86% of artists has a genre
