@@ -1,8 +1,4 @@
-import csv
-
-with open ('artists.csv', encoding='utf8') as file:
-    reader = csv.reader(file)
-    with open('artist_id.csv','w') as result:
-        writer= csv.writer(result)
-        for r in reader:
-            writer.writerow((r[0], r[1], r[2]))
+with open ('artists.csv', encoding='utf8') as input_file:
+    with open('artist_id.csv','w') as output_file:
+        for line in input_file:
+            output_file.write(';'.join(line.split(',')[:3])+'\n')
