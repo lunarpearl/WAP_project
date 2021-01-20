@@ -3,11 +3,21 @@ import json
 with open ('genre_dead_musicians.json', encoding='utf-16') as file:
     genre_dead = json.load(file)
 
-# List of directory with only title and description as keys
+# List of directory with only label, birth date, death date, genre as keys
 genre_dict = []
 for dict in genre_dead:
     x = {'birth date':dict.get('ontology/birthDate'), 'genre':dict.get('ontology/genre_label'), 'death date':dict.get('ontology/deathDate'), 'label':dict.get('http://www.w3.org/2000/01/rdf-schema#label')}
     genre_dict.append(x)
+
+# If the date of death/birth is a lsit, now it will only display the last one
+for dict in genre_dict:
+    if type(dict['birth date']) == list:
+        for el in dict['birth date']:
+            dict['birth date'] = el
+    if type(dict['death date']) == list:
+        for el in dict['death date']:
+            dict['death date'] = el 
+
 
 ## Creating csv file
 with open('death_genre.csv', 'w', encoding="utf-8") as file:
