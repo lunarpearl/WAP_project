@@ -19,6 +19,7 @@ for dict in data:
             reduced_data.append(dict.copy()) 
         if 'http://www.w3.org/2000/01/rdf-schema#seeAlso_label' in dict and key in str(dict["http://www.w3.org/2000/01/rdf-schema#seeAlso_label"]).lower() and dict not in reduced_data:
             reduced_data.append(dict.copy())
+#band is filtered separately, as otherwise it will include people who's occupation in a 'bandit'
     if 'ontology/knownFor' in dict and 'band' in str(dict["ontology/knownFor"]).lower() and dict not in reduced_data:
         reduced_data.append(dict.copy())
     if 'ontology/associatedMusicalArtist' in dict and 'band' in str(dict["ontology/associatedMusicalArtist"]).lower() and dict not in reduced_data:
