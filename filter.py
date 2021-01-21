@@ -35,11 +35,11 @@ with open('reduced_dataset.json', 'w') as file:
 ## List of directory with the coloumns we want as keys
 music_dict = []
 for dict in reduced_data:
-    x = {'title':dict['title'] ,'description':dict.get('http://purl.org/dc/elements/1.1/description'),'occupation':dict.get('ontology/occupation_label'),'birth date':dict.get('ontology/birthDate'), 'death date':dict.get('ontology/deathDate'),'cause of death':dict['ontology/deathCause_label']}
+    x = {'title':dict['title'] ,'description':dict.get('http://purl.org/dc/elements/1.1/description'),'occupation':dict.get('ontology/occupation_label'),'birth date':dict.get('ontology/birthDate'), 'death date':dict.get('ontology/deathDate'),'cause of death':dict['ontology/deathCause_label'], 'label':dict.get('http://www.w3.org/2000/01/rdf-schema#label')}
     music_dict.append(x)
 
 ## Creating csv file
 with open('music.csv', 'w', encoding="utf-8") as file:
-    file.write("title;description;occupation;birth date;death date;cause of death\n")
+    file.write("label;title;description;occupation;birth date;death date;cause of death\n")
     for person in music_dict:
-        file.write(f"{person['title']};{person['description']};{person['occupation']};{person['birth date']};{person['death date']};{person['cause of death']}\n")
+        file.write(f"{person['label']};{person['title']};{person['description']};{person['occupation']};{person['birth date']};{person['death date']};{person['cause of death']}\n")
