@@ -25,7 +25,10 @@ summary_df <- clean_df %>%
             m_age_at_death = mean(age_at_death),
             SD = sd(age_at_death),
             statistic = shapiro.test(age_at_death)$statistic,
-            p.value = shapiro.test(age_at_death)$p.value)
+            p.value = shapiro.test(age_at_death)$p.value,
+            median = median(age_at_death),
+            IQR = IQR(age_at_death))
+#Shapiro-Wilks test of normality is singificant, assumption of normality is not met
 
 
 # Boxplot visualization
@@ -35,11 +38,27 @@ ggboxplot(clean_df, x = "is_rock", y = "age_at_death",
           color = "is_rock", palette = c("#00AFBB", "#E7B800"),
           ylab = "Age at death", xlab = "Groups")
 
-#Histogram visualization
-ggplot(clean_df, aes(x = age_at_death)) +
-  geom_histogram(aes(color = is_rock), fill = "white",
-                 position = "identity", bins = 30) +
-  scale_color_manual(values = c("#00AFBB", "#E7B800"))
+## Histogram
+ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
+  geom_histogram(position = "identity", bins = 30, alpha=0.5) +
+  labs(x = "Age at Death", y = "Count", fill = "Genre of artist",
+       title = "Histogram",
+       subtitle = ) +
+  scale_fill_discrete(labels = c("Other", "Rock"))
+
+
+#lines(seq(10, 40, by=.5), dnorm(seq(10, 40, by=.5),
+                               # mean(mtcars$mpg), sd(mtcars$mpg)), col="blue")
+
+# Normalized histogram visualization
+ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
+  geom_histogram(aes(y = 2*(..density..)/sum(..density..)),
+                 position = "identity", bins = 30, alpha=0.5) +
+  labs(x = "Age at Death", y = "Count per Group Count", fill = "Genre of artist",
+       title = "Normalized Histogram",
+       subtitle = ) +
+  scale_fill_discrete(labels = c("Other", "Rock"))
+
 
 ## Q-Q plots
 ggqqplot(clean_df, x = "age_at_death", facet.by = "is_rock")
@@ -48,8 +67,11 @@ library(car)
 # Levene's test with one independent variable
 leveneTest(age_at_death ~ is_rock, data = clean_df) #p = 0.0099 not met
 
-## Independent t-test
+## Independent t-test - only if we were able to assume equal distribution, but no
 t.test (age_at_death ~ is_rock, var.equal=FALSE, data = clean_df)
+
+## Wilcoxon test - since assumption of normality is not met
+wilcox.test(age_at_death ~ is_rock, data = clean_df)
 
 
 
