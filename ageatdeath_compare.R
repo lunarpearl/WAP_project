@@ -49,10 +49,6 @@ ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
        subtitle = ) +
   scale_fill_discrete(labels = c("Other", "Rock"))
 
-
-#lines(seq(10, 40, by=.5), dnorm(seq(10, 40, by=.5),
-                               # mean(mtcars$mpg), sd(mtcars$mpg)), col="blue")
-
 # Normalized histogram visualization
 ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
   geom_histogram(aes(y = 2*(..density..)/sum(..density..)),
