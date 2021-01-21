@@ -40,6 +40,6 @@ for dict in reduced_data:
 
 ## Creating csv file
 with open('music.csv', 'w', encoding="utf-8") as file:
-    file.write("title,description,occupation,birth date,death date,cause of death\n")
+    file.write("title;description;occupation;birth date;death date;cause of death\n")
     for person in music_dict:
-        file.write(f"{person['title']},{person['description']},{person['occupation']},{person['birth date']},{person['death date']},{person['cause of death']}\n")
+        file.write(f"{person['title']};{person['description']};{person['occupation']};{person['birth date']};{person['death date']};{person['cause of death']}\n")
