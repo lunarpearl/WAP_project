@@ -35,8 +35,11 @@ summary_df <- clean_df %>%
 # install.packages("ggpubr")
 library(ggpubr)
 ggboxplot(clean_df, x = "is_rock", y = "age_at_death", 
-          color = "is_rock", palette = c("#00AFBB", "#E7B800"),
-          ylab = "Age at death", xlab = "Groups")
+          color = "is_rock", 
+          ylab = "Age at death", xlab = "Genre of artist", ) +
+  scale_x_discrete(labels = c("Other", "Rock")) +
+  scale_color_discrete(labels = c("Other", "Rock"), name="Genre")
+#palette = c("#00AFBB", "#E7B800")
 
 ## Histogram
 ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
@@ -64,14 +67,18 @@ ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
 ggqqplot(clean_df, x = "age_at_death", facet.by = "is_rock")
 
 library(car)
-# Levene's test with one independent variable
-leveneTest(age_at_death ~ is_rock, data = clean_df) #p = 0.0099 not met
+## Levene's test with one independent variable
+# leveneTest(age_at_death ~ is_rock, data = clean_df) #p = 0.0099 not met
 
 ## Independent t-test - only if we were able to assume equal distribution, but no
-t.test (age_at_death ~ is_rock, var.equal=FALSE, data = clean_df)
+# t.test (age_at_death ~ is_rock, var.equal=FALSE, data = clean_df)
 
 ## Wilcoxon test - since assumption of normality is not met
 wilcox.test(age_at_death ~ is_rock, data = clean_df)
 
-
-
+## Get effect size
+library(rstatix)
+clean_df %>% wilcox_effsize(age_at_death ~ is_rock)
+clean_df %>%
+  group_by(is_rock) %>%
+  get_summary_stats(age_at_death, type = "median_iqr")
