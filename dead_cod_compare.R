@@ -34,19 +34,10 @@ summary_df <- clean_df %>%
             median = median(age_at_death),
             IQR = IQR(age_at_death))
 
-## Histogram
-ggplot(clean_df, aes(x = age_at_death, fill = `cause of death`)) +
-  geom_histogram(position = "identity", bins = 30, alpha=0.5) +
-  labs(x = "Age at Death", y = "Count", fill = "COD recorded or not",
-       title = "Histogram",
-       subtitle = ) +
-  scale_fill_discrete(labels = c("Both", "Recorded"))
-
 ## Normalized histogram
 ggplot(clean_df, aes(x = age_at_death, y = 2*(..density..)/sum(..density..),
                      fill = `cause of death`)) +
   geom_histogram(position = "identity", bins = 30, alpha=0.5) +
-  labs(x = "Age at Death", y = "Count per Group Count", fill = "COD recorded or not",
-       title = "Normalized histogram",
-       subtitle = ) +
-  scale_fill_discrete(labels = c("Both", "Recorded"))
+  labs(x = "Age at Death", y = "Normalized Frequency", fill = NULL,
+       title = NULL) +
+  scale_fill_discrete(labels = c("All", "Recorded COD"))

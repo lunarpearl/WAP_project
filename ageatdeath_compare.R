@@ -1,4 +1,3 @@
-
 library(tidyverse)
 
 ## Load in csv as dataframe
@@ -15,8 +14,26 @@ calculations_df <- df %>%
          is_rock = str_detect(genre,coll("rock", ignore_case = TRUE)))
 
 clean_df <- subset(calculations_df, !(age_at_death <= 17)) %>%
-  mutate(age_at_death = as.numeric(age_at_death))
+  mutate(age_at_death = as.numeric(age_at_death),
+         year_of_death = format(as.Date(`death date`, format="%d/%m/%Y"),"%Y"),
+         year_of_birth = format(as.Date(`birth date`, format="%d/%m/%Y"),"%Y"))
 
+clean_df_modern <- subset(clean_df, !(year_of_birth < 1900))
+summary_df_modern <- clean_df_modern %>%
+  select(age_at_death, is_rock) %>%
+  group_by(is_rock) %>%
+  summarise(n = n(),
+            m_age_at_death = mean(age_at_death),
+            SD = sd(age_at_death),
+            median = median(age_at_death),
+            IQR = IQR(age_at_death))
+
+history_df <- clean_df_modern %>%
+  group_by(is_rock, year_of_death) %>%
+  summarise(median_age = median(age_at_death),
+            count = n()) %>%
+  mutate(year_of_death = as.numeric(year_of_death))
+  
 ## Group by the logical expression then calculate count, mean age, SD of age
 summary_df <- clean_df %>%
   select(age_at_death, is_rock) %>%
@@ -24,57 +41,39 @@ summary_df <- clean_df %>%
   summarise(n = n(),
             m_age_at_death = mean(age_at_death),
             SD = sd(age_at_death),
-            statistic = shapiro.test(age_at_death)$statistic,
-            p.value = shapiro.test(age_at_death)$p.value,
             median = median(age_at_death),
             IQR = IQR(age_at_death))
-#Shapiro-Wilks test of normality is singificant, assumption of normality is not met
-
-
-# Boxplot visualization
-# install.packages("ggpubr")
-library(ggpubr)
-ggboxplot(clean_df, x = "is_rock", y = "age_at_death", 
-          color = "is_rock", 
-          ylab = "Age at death", xlab = "Genre of artist", ) +
-  scale_x_discrete(labels = c("Other", "Rock")) +
-  scale_color_discrete(labels = c("Other", "Rock"), name="Genre")
-#palette = c("#00AFBB", "#E7B800")
-
-## Histogram
-ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
-  geom_histogram(position = "identity", bins = 30, alpha=0.5) +
-  labs(x = "Age at Death", y = "Count", fill = "Genre of artist",
-       title = "Histogram",
-       subtitle = ) +
-  scale_fill_discrete(labels = c("Other", "Rock"))
 
 # Normalized histogram visualization
-ggplot(clean_df, aes(x = age_at_death, fill = is_rock)) +
+ggplot(clean_df_modern, aes(x = age_at_death, fill = is_rock)) +
   geom_histogram(aes(y = 2*(..density..)/sum(..density..)),
                  position = "identity", bins = 30, alpha=0.5) +
-  labs(x = "Age at Death", y = "Count per Group Count", fill = "Genre of artist",
-       title = "Normalized Histogram",
-       subtitle = ) +
+  labs(x = "Age at Death", y = "Normalized Frequency", fill = "Genre",
+       title = NULL) +
   scale_fill_discrete(labels = c("Other", "Rock"))
 
+## Line graph of median age over time
+ggplot(history_df) +
+  aes(x = year_of_death, y = median_age, colour = is_rock) +
+  geom_line() +
+  geom_smooth() +
+  labs(x = "Year of Death", y = "Median Age at Death", color = "Genre",
+      title = NULL) +
+  #scale_x_continuous(limits=c(2008, 2019), breaks = seq(2008, 2019, 2)) +
+  xlim(1930, 2016) +
+  ylim(20, 85) +
+  scale_color_discrete(labels = c("Other", "Rock")) +
+  scale_x_continuous(breaks = c(1930,1950,1970,1990,2010))
 
 ## Q-Q plots
-ggqqplot(clean_df, x = "age_at_death", facet.by = "is_rock")
+# ggqqplot(clean_df_modern, x = "age_at_death", facet.by = "is_rock")
 
-library(car)
-## Levene's test with one independent variable
-# leveneTest(age_at_death ~ is_rock, data = clean_df) #p = 0.0099 not met
-
-## Independent t-test - only if we were able to assume equal distribution, but no
-# t.test (age_at_death ~ is_rock, var.equal=FALSE, data = clean_df)
 
 ## Wilcoxon test - since assumption of normality is not met
-wilcox.test(age_at_death ~ is_rock, data = clean_df)
-
+wilcox.test(age_at_death ~ is_rock, data = clean_df_modern)
 ## Get effect size
 library(rstatix)
-clean_df %>% wilcox_effsize(age_at_death ~ is_rock)
+clean_df_modern %>% wilcox_effsize(age_at_death ~ is_rock)
 clean_df %>%
   group_by(is_rock) %>%
   get_summary_stats(age_at_death, type = "median_iqr")
