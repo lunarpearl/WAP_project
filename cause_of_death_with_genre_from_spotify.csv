@@ -1,88 +1,33 @@
-label;genre
-Fred Rogers;[]
-John Collins;[]
-Connie Haines;['deep motown']
-Joe Hill;['memphis blues', 'one-person band']
-Trevor Williams;[]
-Josephine Premice;[]
-Hilly Kristal;[]
-Whitney Houston;['dance pop', 'pop', 'urban contemporary']
-Phillip Crosby;[]
-Jack Wild;[]
-Mike Minor;[]
-J. Pat O'Malley;['disney', 'movie tunes']
-Gino Piserchio;[]
-Joe E. Lewis;['blues rock', 'deep new americana', 'funk', 'modern blues', 'modern blues rock', 'modern funk', 'punk blues']
-June Allyson;['vintage hollywood']
-Pat Kirkwood;[]
-Tony Jay;['disney', 'movie tunes']
-Katalin Karády;['classic hungarian pop']
-Rex Everhart;[]
-Mel Stewart;[]
-Bob Marley;['reggae', 'roots reggae']
-Herbert Greene;[]
-Jimmy MacDonald;[]
-Janet Carroll;[]
-Cliff Edwards;['movie tunes']
-Sheila Guyse;[]
-James Brown;['funk', 'motown', 'soul']
-Jack Haley;[]
-Frankie Randall;[]
-James Best;[]
-Herman Berlinski;[]
-John Mitchum;[]
-Lorraine Geller;[]
-Lawrence Welk;['easy listening', 'lounge', 'polka']
-Gordon MacRae;[]
-David Haskell;[]
-Manolo Escobar;['copla', 'musica aragonesa', 'pop flamenco', 'rumba', 'spanish pop', 'villancicos']
-Bob Haymes;[]
-Dorothy Dandridge;['harlem renaissance']
-Marti Caine;[]
-Benay Venuta;[]
-Peter Kapetan;[]
-Gregory Hines;[]
-Bert Convy;[]
-Peggy Lee;['adult standards', 'brill building pop', 'lounge', 'soul', 'swing', 'torch song', 'vocal jazz']
-Donna Douglas;[]
-Clive Dunn;['novelty']
-Eddie Collins;[]
-Kitty Carlisle;[]
-Hugo Avendaño;[]
-Lyubov Orlova;[]
-Rossano Brazzi;[]
-Hamilton Camp;['american folk revival']
-Clarence Wijewardena;['classic sinhala pop', 'sinhala pop']
-Henry Gibson;[]
-Johnny Cash;['arkansas country', 'outlaw country']
-José Carlos Schwarz;['gumbe']
-Gary Crosby;[]
-Jesús Franco;[]
-Augustine Joseph;['irish classical']
-Gary Miller;[]
-Anita Morris;[]
-Romina Yan;[]
-Darla Hood;[]
-Dennis Day;[]
-Libertad Lamarque;['tango', 'tango cancion']
-Billy Cotton;['british dance band']
-Kim Milford;[]
-Bill Lee;[]
-Vanity;['dark clubbing', 'synthwave']
-Bob Hope;['vintage hollywood']
-Marion Hutton;[]
-Divine;['russelater']
-Edith Massey;[]
-Freddie Mercury;['glam rock']
-Jack Lawrence;['tin pan alley']
-Al Jolson;['big band', 'swing', 'tin pan alley']
-Mary Millar;[]
-Azean Irdawaty;[]
-Barbara Lang;[]
-Shep Fields;[]
-Everett Sloane;[]
-Gary McFarland;['jazz vibraphone']
-Marc Aryan;['classic turkish pop', 'turkish psych']
-Veturi Sundararama Murthy;[]
-Leonard Nimoy;['comic', 'outsider']
-John Handcox;[]
+label;genre;cause of death
+Augustine Joseph;['irish classical'];Myocardial infarction
+Al Jolson;['big band', 'tin pan alley'];Myocardial infarction
+Billy Cotton;['british dance band'];Stroke
+Bob Hope;['vintage hollywood'];Pneumonia
+Bob Marley;['reggae', 'roots reggae'];Melanoma
+Clarence Wijewardena;['classic sinhala pop', 'sinhala pop'];Cirrhosis
+Cliff Edwards;['movie tunes'];['Cardiac arrest', 'Arteriosclerosis']
+Clive Dunn;['novelty'];Complication (medicine)
+Connie Haines;['deep motown'];Myasthenia gravis
+Divine;['russelater'];Cardiomegaly
+Dorothy Dandridge;['harlem renaissance'];['Embolism', 'Drug overdose']
+Freddie Mercury;['glam rock'];Pneumonia
+Gary McFarland;['jazz vibraphone'];Methadone
+Hamilton Camp;['american folk revival'];Myocardial infarction
+Joe E. Lewis;['blues rock', 'deep new americana', 'funk', 'modern blues', 'modern blues rock', 'modern funk', 'punk blues'];Myocardial infarction
+Joe Hill;['memphis blues', 'one-person band'];Execution by firing squad
+Johnny Cash;['arkansas country', 'outlaw country'];Diabetes mellitus
+José Carlos Schwarz;['gumbe'];Aeroflot Flight 331
+June Allyson;['vintage hollywood'];['Respiratory failure', 'Bronchitis']
+J. Pat O'Malley;['disney', 'movie tunes'];Cardiovascular disease
+Jack Lawrence;['tin pan alley'];Falling (accident)
+James Brown;['funk', 'motown', 'soul'];Pneumonia
+Katalin Karády;['classic hungarian pop'];Death by natural causes
+Lawrence Welk;['easy listening', 'lounge', 'polka'];Pneumonia
+Leonard Nimoy;['comic', 'outsider'];Chronic obstructive pulmonary disease
+Libertad Lamarque;['tango', 'tango cancion'];Myocardial infarction
+Manolo Escobar;['copla', 'musica aragonesa', 'pop flamenco', 'rumba', 'spanish pop', 'villancicos'];Colorectal cancer
+Marc Aryan;['classic turkish pop', 'turkish psych'];Cardiac arrest
+Peggy Lee;['adult standards', 'brill building pop', 'lounge', 'soul', 'swing', 'torch song', 'vocal jazz'];Diabetes mellitus
+Tony Jay;['disney', 'movie tunes'];Endoscopy
+Vanity;['synthwave'];Renal failure
+Whitney Houston;['dance pop', 'pop', 'urban contemporary'];Drowning
