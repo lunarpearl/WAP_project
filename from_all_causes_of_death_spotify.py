@@ -8,7 +8,7 @@ spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
 with open ('deathcause.json', encoding='utf-16') as file:
     cause_of_death = json.load(file)
 
-# List of directory with only label, birth date, death date, genre as keys
+# List of directory with only label, cause of death, adn genre as keys
 genre_dict = []
 for dict in cause_of_death:
     x = {'genre':dict.get('ontology/genre_label'), 'cause of death':dict['ontology/deathCause_label'], 'label':dict.get('http://www.w3.org/2000/01/rdf-schema#label')}
@@ -20,8 +20,7 @@ with open('causes_of_death.csv', 'w', encoding="utf-8") as file:
     for person in genre_dict:
         file.write(f"{person['label']};{person['genre']};{person['cause of death']}\n")
 
-# Figure out which artists have no genre
-# Make set with all dead musicians 
+# Make a dictionary of the csv file 
 causes_of_death = {}
 with open('causes_of_death.csv', encoding='utf-8') as file:
     file.readline()
@@ -30,6 +29,7 @@ with open('causes_of_death.csv', encoding='utf-8') as file:
         causes_of_death[(columns[0].split('(')[0].strip())] = columns[2].strip()
 print(len(causes_of_death))        
 
+# Run the names from the dictionary through the spotify API, add genres for all matches and write to a file
 with open('from_all_causes_of_death_with_genre_from_spotify.csv', 'w', encoding='utf-8') as file:
     file.write('label;genre;cause of death\n')
     for name, cause in causes_of_death.items():

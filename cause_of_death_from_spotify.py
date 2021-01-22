@@ -3,8 +3,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 spotify = spotipy.Spotify(auth_manager=SpotifyClientCredentials())
 
-# Figure out which artists have no genre
-# Make set with all dead musicians 
+# Make a dictionary of the csv file 
 causes_of_death = {}
 with open('music.csv', encoding='utf-8') as file:
     file.readline()
@@ -13,6 +12,7 @@ with open('music.csv', encoding='utf-8') as file:
         causes_of_death[(columns[0].split('(')[0].strip())] = columns[6].strip()
 print(len(causes_of_death))   
 
+# Run the names from the dictionary through the spotify API, add genres for all matches and write to a file
 with open('cause_of_death_with_genre_from_spotify.csv', 'w', encoding='utf-8') as file:
     file.write('label;genre;cause of death\n')
     for name, cause in causes_of_death.items():
